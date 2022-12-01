@@ -1,12 +1,17 @@
 {
   "files": {
-    "main.css": "/memory-game/static/css/main.31d6cfe0.css",
-    "main.js": "/memory-game/static/js/main.e64ed582.js",
+    "main.css": "/memory-game/static/css/main.6b84b4f4.css",
+    "main.js": "/memory-game/static/js/main.37b5e38b.js",
+    "static/media/strawb-frog.png": "/memory-game/static/media/strawb-frog.d519848df15d035e7a6e.png",
+    "static/media/flag-frog.png": "/memory-game/static/media/flag-frog.159561cdd7b5aa5908ef.png",
+    "static/media/ball-frog.png": "/memory-game/static/media/ball-frog.f1062755b6637b90c3dc.png",
+    "static/media/tiny-frog.png": "/memory-game/static/media/tiny-frog.3962886b4fbb812a0d4b.png",
     "index.html": "/memory-game/index.html",
-    "main.e64ed582.js.map": "/memory-game/static/js/main.e64ed582.js.map"
+    "main.6b84b4f4.css.map": "/memory-game/static/css/main.6b84b4f4.css.map",
+    "main.37b5e38b.js.map": "/memory-game/static/js/main.37b5e38b.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d6cfe0.css",
-    "static/js/main.e64ed582.js"
+    "static/css/main.6b84b4f4.css",
+    "static/js/main.37b5e38b.js"
   ]
 }
