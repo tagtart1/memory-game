@@ -1,17 +1,27 @@
 {
   "files": {
-    "main.css": "/memory-game/static/css/main.6b84b4f4.css",
-    "main.js": "/memory-game/static/js/main.37b5e38b.js",
+    "main.css": "/memory-game/static/css/main.3ea817ff.css",
+    "main.js": "/memory-game/static/js/main.5d43c616.js",
+    "static/media/toad.png": "/memory-game/static/media/toad.d85d3863ea9b35072aec.png",
+    "static/media/mermaid-frog.png": "/memory-game/static/media/mermaid-frog.e3be7abe04637402f0c5.png",
+    "static/media/pumpkin-frog.png": "/memory-game/static/media/pumpkin-frog.be56f5f33a7d8c0feaf0.png",
+    "static/media/bulb-frog.png": "/memory-game/static/media/bulb-frog.cd67947fdaeeabca155b.png",
     "static/media/strawb-frog.png": "/memory-game/static/media/strawb-frog.d519848df15d035e7a6e.png",
+    "static/media/bear-frog.png": "/memory-game/static/media/bear-frog.89043d4de83afa598041.png",
+    "static/media/leg-frog.png": "/memory-game/static/media/leg-frog.41ea82e4e0e97abfd035.png",
+    "static/media/magic-frog.png": "/memory-game/static/media/magic-frog.a1da43d6476db945c8ab.png",
     "static/media/flag-frog.png": "/memory-game/static/media/flag-frog.159561cdd7b5aa5908ef.png",
+    "static/media/sprout-frog.png": "/memory-game/static/media/sprout-frog.a8442ee751d9aa225117.png",
+    "static/media/bone-frog.png": "/memory-game/static/media/bone-frog.5b17f711f36213cb6fd8.png",
     "static/media/ball-frog.png": "/memory-game/static/media/ball-frog.f1062755b6637b90c3dc.png",
+    "static/media/frog.png": "/memory-game/static/media/frog.a6f2f86363acec218bdf.png",
     "static/media/tiny-frog.png": "/memory-game/static/media/tiny-frog.3962886b4fbb812a0d4b.png",
     "index.html": "/memory-game/index.html",
-    "main.6b84b4f4.css.map": "/memory-game/static/css/main.6b84b4f4.css.map",
-    "main.37b5e38b.js.map": "/memory-game/static/js/main.37b5e38b.js.map"
+    "main.3ea817ff.css.map": "/memory-game/static/css/main.3ea817ff.css.map",
+    "main.5d43c616.js.map": "/memory-game/static/js/main.5d43c616.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b84b4f4.css",
-    "static/js/main.37b5e38b.js"
+    "static/css/main.3ea817ff.css",
+    "static/js/main.5d43c616.js"
   ]
 }
