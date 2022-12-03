@@ -1,6 +1,7 @@
 import "../styles/App.css";
 import Header from "./Header";
 import Scoreboard from "./Scoreboard";
+import Footer from "./Footer";
 
 import { useState, useEffect } from "react";
 import CardManager from "./CardManager";
@@ -30,9 +31,10 @@ function App() {
         <Header />
         <Scoreboard score={score} highscore={highscore} />
       </div>
-      <div className="main">
-        <CardManager increaseScore={increaseScore} resetScore={resetScore} />
-      </div>
+
+      <CardManager increaseScore={increaseScore} resetScore={resetScore} />
+
+      <Footer />
     </div>
   );
 }

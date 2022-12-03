@@ -1,35 +1,27 @@
 import Card from "./Card";
 import "../styles/App.css";
 import { useState, useEffect } from "react";
-import ballFrog from "../imgs/ball-frog.png";
-import flatFrog from "../imgs/flag-frog.png";
-import strawbFrog from "../imgs/strawb-frog.png";
-import tinyFrog from "../imgs/tiny-frog.png";
-import uniqid from "uniqid";
+import objectPool from "./CardObjectPool";
 
 const CardManager = (props) => {
-  const [cardObjs, setCardObjs] = useState([
-    {
-      img: ballFrog,
-      text: "Ball Frog",
-      id: uniqid(),
-    },
-    {
-      img: flatFrog,
-      text: "Flat Frog",
-      id: uniqid(),
-    },
-    {
-      img: strawbFrog,
-      text: "Strawberry Frog",
-      id: uniqid(),
-    },
-    {
-      img: tinyFrog,
-      text: "Tiny Frog",
-      id: uniqid(),
-    },
-  ]);
+  const frogPool = objectPool;
+
+  const getRandomObjFromPool = () => {
+    // let cardAmount = 6 + (level - 1) * 2;
+    let cardAmount = 12;
+    let newCardObjs = [];
+    let poolCopy = [...frogPool];
+
+    while (newCardObjs.length < cardAmount) {
+      let randomIndex = Math.floor(Math.random() * poolCopy.length);
+      newCardObjs.push(poolCopy[randomIndex]);
+      poolCopy.splice(randomIndex, 1);
+    }
+
+    return newCardObjs;
+  };
+
+  const [cardObjs, setCardObjs] = useState(getRandomObjFromPool());
 
   const [hitCards, setHitCards] = useState({});
 
@@ -42,8 +34,8 @@ const CardManager = (props) => {
 
       props.increaseScore();
     } else {
-      shuffleCards();
       setHitCards({});
+      shuffleCards();
       props.resetScore();
     }
   };

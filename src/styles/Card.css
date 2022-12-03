@@ -1,6 +1,6 @@
 .card {
   padding: 24px;
-  background-color: rgb(92, 192, 92);
+  background-color: rgb(106, 180, 106);
   user-select: none;
   display: flex;
   flex-direction: column;
@@ -16,8 +16,8 @@
 }
 
 img {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   margin: 0;
   padding: 0;
   border-radius: 12px;
@@ -26,6 +26,22 @@ img {
 p {
   margin: 0;
   padding: 0;
-  font-size: 36px;
+  font-size: 24px;
   text-shadow: rgba(26, 26, 29, 0.603) 0px 7px 29px 0px;
+}
+
+@media screen and (max-width: 450px) {
+  img {
+    width: 75px;
+    height: 75px;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  .card {
+    padding: 10px 10px;
+    gap: 12px;
+  }
 }
