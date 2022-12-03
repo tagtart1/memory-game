@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/memory-game/static/css/main.3ea817ff.css",
+    "main.css": "/memory-game/static/css/main.39540742.css",
     "main.js": "/memory-game/static/js/main.5d43c616.js",
     "static/media/toad.png": "/memory-game/static/media/toad.d85d3863ea9b35072aec.png",
     "static/media/mermaid-frog.png": "/memory-game/static/media/mermaid-frog.e3be7abe04637402f0c5.png",
@@ -17,11 +17,11 @@
     "static/media/frog.png": "/memory-game/static/media/frog.a6f2f86363acec218bdf.png",
     "static/media/tiny-frog.png": "/memory-game/static/media/tiny-frog.3962886b4fbb812a0d4b.png",
     "index.html": "/memory-game/index.html",
-    "main.3ea817ff.css.map": "/memory-game/static/css/main.3ea817ff.css.map",
+    "main.39540742.css.map": "/memory-game/static/css/main.39540742.css.map",
     "main.5d43c616.js.map": "/memory-game/static/js/main.5d43c616.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ea817ff.css",
+    "static/css/main.39540742.css",
     "static/js/main.5d43c616.js"
   ]
 }
